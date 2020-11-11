@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{7267E802-0E34-4A0C-A6FD-0F3AC7FD29A0}">
+				<TypeInfo Item0="{8763DB56-A07C-48BF-B2B2-81B5B253DDB0}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{E3CEE4E7-4B5E-4AD2-9289-524159FA13D6}">
+						<TypeInfo Item0="{3960308D-C485-43E4-A613-1CD5193906E4}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageContactus" Key="{C646E98B-E009-4C5B-ACD1-D3D057C3C7E6}">
+								<Image FileName="2137720128" Left="11" Top="117" Right="2571" Bottom="1392" />
+								<TypeInfo Item0="{A0E46AC9-3A3E-410E-BAA6-AD6DCF2EB466}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://services.smartbear.com/samples/TestComplete14/smartstore/contactus" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{3172FC06-A7C0-43C9-9025-D3ED74B826CA}">
+										<Image FileName="2137720128" Left="424" Top="447" Right="2134" Bottom="727" />
+										<TypeInfo Item0="{1835BC75-FAEF-4C0D-A467-4431196250F1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Contact Us&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;content&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{A874BEB9-1EA7-4B4C-AFE6-A800177F89FE}">
+										<Image FileName="2137720128" Left="447" Top="636" Right="2112" Bottom="703" />
+										<TypeInfo Item0="{1835BC75-FAEF-4C0D-A467-4431196250F1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Your enquiry has been successfully sent to the store owner.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".alert:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]/div/div[3]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div[3]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form" Key="{9D766E37-957E-4217-B8AA-8AAD6D82374A}">
+										<Image FileName="-466934932" Left="436" Top="625" Right="2101" Bottom="1120" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Your name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".contact-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@action=&apos;/samples/TestComplete14/smartstore/contactus&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]/div/div[3]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxYourName" Key="{7443E06F-14E5-4E01-83C8-E7544304AB27}">
+										<Image FileName="-466934932" Left="863" Top="625" Right="2101" Bottom="689" />
+										<TypeInfo Item0="{24228AA3-F90C-4616-B631-4385C05E1784}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#FullName" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;FullName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[text()=&apos;Your name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;FullName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]/div/div[3]/form/div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxYourEmail" Key="{7ACC9DF5-9AC8-4C94-A53A-C9B9F1D22752}">
+										<Image FileName="-1549022618" Left="863" Top="713" Right="2101" Bottom="777" />
+										<TypeInfo Item0="{24228AA3-F90C-4616-B631-4385C05E1784}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Email" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;Email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[text()=&apos;Your email&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;Email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]/div/div[3]/form/div[2]/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaEnquiry" Key="{284A3F80-F31E-498E-82A4-CC3A3CCEBA18}">
+										<Image FileName="-23786916" Left="863" Top="801" Right="2101" Bottom="1020" />
+										<TypeInfo Item0="{6967D829-AC4B-4C70-A2CB-2ECF68E88E1E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#Enquiry" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;Enquiry&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@id=&apos;Enquiry&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]/div/div[3]/form/div[3]/div/textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSubmit" Key="{AEBF8641-EB60-4E1D-BB33-CE359B1BD7A2}">
+										<Image FileName="-892047517" Left="863" Top="1044" Right="1016" Bottom="1120" />
+										<TypeInfo Item0="{3591016A-73D0-4A5C-B371-7B196B7485CF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="*[name=&apos;send-email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Submit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[name=&apos;send-email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@name=&apos;send-email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]/div/div[3]/form/div[4]/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{DFCFB1B4-1EAF-4B29-BDCC-7CCC2E566813}">
+								<Image FileName="1459094376" Left="-11" Top="-11" Right="2571" Bottom="1391" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageShop" Key="{BDF74B13-10CB-4807-92AF-FED64B3F26BA}">
+								<Image FileName="976480708" Left="0" Top="106" Right="2560" Bottom="1381" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://services.smartbear.com/samples/testcomplete14/smartstore" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{CE329816-CC67-4E77-A882-75EE6DD37C67}">
+										<Image FileName="867465206" Left="0" Top="106" Right="2536" Bottom="400" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;page&apos;]/div[2]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="nav" Key="{6D889F85-ABA2-417F-99E8-9E60881C7626}">
+										<Image FileName="867465206" Left="436" Top="106" Right="2101" Bottom="169" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".menubar" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]/div/div/nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="nav2" Key="{DAA3A896-5E20-4B09-A0F4-7D5D85358D0D}">
+										<Image FileName="867465206" Left="1355" Top="106" Right="1683" Bottom="169" />
+										<Selectors>
+											<Selector>
+												<Value Value=".ml-auto" />
+											</Selector>
+											<Selector>
+												<Value Value="(//nav[contains(.,&apos;Contact us&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]/div/div/nav/nav[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkContactUs" Key="{9F903C7A-D97C-4BA2-95B4-D9C9C76BBFE5}">
+										<Image FileName="867465206" Left="1355" Top="106" Right="1488" Bottom="169" />
+										<TypeInfo Item0="{6967D829-AC4B-4C70-A2CB-2ECF68E88E1E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/samples/TestComplete14/smartstore/contactus&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Contact us&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".menubar-group &gt; [href=&apos;/samples/TestComplete14/smartstore/contactus&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]/div/div/nav/nav[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/samples/TestComplete14/smartstore/contactus&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{E3CEE4E7-4B5E-4AD2-9289-524159FA13D6}">
+			<Child Name="pageContactus" Owner="{C646E98B-E009-4C5B-ACD1-D3D057C3C7E6}">
+				<Child Name="sectionContent" Owner="{3172FC06-A7C0-43C9-9025-D3ED74B826CA}">
+					<Child Name="panel" Owner="{A874BEB9-1EA7-4B4C-AFE6-A800177F89FE}" />
+					<Child Name="form" Owner="{9D766E37-957E-4217-B8AA-8AAD6D82374A}">
+						<Child Name="textboxYourName" Owner="{7443E06F-14E5-4E01-83C8-E7544304AB27}" />
+						<Child Name="textboxYourEmail" Owner="{7ACC9DF5-9AC8-4C94-A53A-C9B9F1D22752}" />
+						<Child Name="textareaEnquiry" Owner="{284A3F80-F31E-498E-82A4-CC3A3CCEBA18}" />
+						<Child Name="buttonSubmit" Owner="{AEBF8641-EB60-4E1D-BB33-CE359B1BD7A2}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{DFCFB1B4-1EAF-4B29-BDCC-7CCC2E566813}" />
+			<Child Name="pageShop" Owner="{BDF74B13-10CB-4807-92AF-FED64B3F26BA}">
+				<Child Name="header" Owner="{CE329816-CC67-4E77-A882-75EE6DD37C67}">
+					<Child Name="nav" Owner="{6D889F85-ABA2-417F-99E8-9E60881C7626}">
+						<Child Name="nav2" Owner="{DAA3A896-5E20-4B09-A0F4-7D5D85358D0D}">
+							<Child Name="linkContactUs" Owner="{9F903C7A-D97C-4BA2-95B4-D9C9C76BBFE5}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
