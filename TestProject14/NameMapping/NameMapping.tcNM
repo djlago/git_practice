@@ -287,6 +287,122 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="sectionContent" Key="{4C146F4C-0571-4491-B87B-1F3029FCF249}">
+										<Image FileName="1802944987" Left="413" Top="484" Right="2123" Bottom="3474" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome to our store&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;content&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="article" Key="{F74A9B96-0C6C-417C-98E6-AC4E409F10AE}">
+										<Image FileName="1802944987" Left="436" Top="694" Right="694" Bottom="998" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Mobile phone&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".artlist-boxed &gt; [data-id=&apos;1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]/div/div/div[2]/article" />
+											</Selector>
+											<Selector>
+												<Value Value="//article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{2184BE29-CA12-4591-BE00-B381E220B56A}">
+										<Image FileName="1802944987" Left="460" Top="718" Right="670" Bottom="928" />
+										<Selectors>
+											<Selector>
+												<Value Value=".art-picture-block &gt; [href=&apos;/samples/TestComplete14/smartstore/apple&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]/div/div/div[2]/article/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;/samples/TestComplete14/smartstore/apple&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageMobilePhonePngSize250" Key="{152C4B12-9C4B-49BD-A381-42940E205464}">
+										<Image FileName="1802944987" Left="483" Top="718" Right="645" Bottom="928" />
+										<TypeInfo Item0="{6967D829-AC4B-4C70-A2CB-2ECF68E88E1E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[src=&apos;//services.smartbear.com/samples/TestComplete14/smartstore/media/image/237/mobile-phone.png?size=250&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[@alt=&apos;Picture for category Mobile phone&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]/div/div/div[2]/article/div/a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;/samples/TestComplete14/smartstore/apple&apos;)])[2]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//article/div/a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link2" Key="{1D4EB7EC-F786-47CD-A000-415962CBD080}">
+										<Image FileName="-61434938" Left="433" Top="243" Right="804" Bottom="333" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/samples/TestComplete14/smartstore/&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".shopbar-col &gt; [href=&apos;/samples/TestComplete14/smartstore/&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]/div[2]/div/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;/samples/TestComplete14/smartstore/&apos;)])[17]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageCompanyLogoPng" Key="{095E2CC0-D43F-4431-84CB-0A87CB3F1088}">
+										<Image FileName="-61434938" Left="433" Top="243" Right="804" Bottom="333" />
+										<TypeInfo Item0="{6967D829-AC4B-4C70-A2CB-2ECF68E88E1E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[src=&apos;//services.smartbear.com/samples/TestComplete14/smartstore/media/image/1/company-logo.png&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[@alt=&apos;Your store name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]/div[2]/div/div/div/div/a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;/samples/TestComplete14/smartstore/&apos;)])[17]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -314,6 +430,16 @@
 					<Child Name="nav" Owner="{6D889F85-ABA2-417F-99E8-9E60881C7626}">
 						<Child Name="nav2" Owner="{DAA3A896-5E20-4B09-A0F4-7D5D85358D0D}">
 							<Child Name="linkContactUs" Owner="{9F903C7A-D97C-4BA2-95B4-D9C9C76BBFE5}" />
+						</Child>
+					</Child>
+					<Child Name="link2" Owner="{1D4EB7EC-F786-47CD-A000-415962CBD080}">
+						<Child Name="imageCompanyLogoPng" Owner="{095E2CC0-D43F-4431-84CB-0A87CB3F1088}" />
+					</Child>
+				</Child>
+				<Child Name="sectionContent" Owner="{4C146F4C-0571-4491-B87B-1F3029FCF249}">
+					<Child Name="article" Owner="{F74A9B96-0C6C-417C-98E6-AC4E409F10AE}">
+						<Child Name="link" Owner="{2184BE29-CA12-4591-BE00-B381E220B56A}">
+							<Child Name="imageMobilePhonePngSize250" Owner="{152C4B12-9C4B-49BD-A381-42940E205464}" />
 						</Child>
 					</Child>
 				</Child>
